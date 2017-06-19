@@ -1,19 +1,30 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Pokemon</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+  
+    <header class="elem"><img src="img/pokemon_go_logo.png" width="208"  alt=""/></header>
+    <div id="tab1">
+        <div id="loader">
+            <h2 style="color:white;font-family:Montserrat;">Loading data...</h2>
+	<div id="anim"><img src="img/ball.svg" width="25" alt=""/></div>
+</div>
+    </div>
+    <div id="view">
+    	<div id="view1"></div>
+    	<div id="view2"></div>
+    </div>
 
-
-<div id="pokemon"></div>
-
-
-
-
-<script type="text/javascript" src="js/script.js"></script>
+<footer class="elem"><img src="img/pikatchu.png" width="100" alt=""/></footer>
+ 
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
