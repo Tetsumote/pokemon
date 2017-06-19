@@ -1,0 +1,40 @@
+@media screen and (max-width:760px){
+	.table-row:hover .table-cell{
+		font-size: 1.5rem;
+		
+	}
+	.table-row:hover img{
+		transform: scale(1.2);
+	}
+    }
+
+
+@media screen and (max-width:760px){
+	header{
+
+		background-color: darkblue;
+	
+}
+	header img{
+		margin-top: 5px;
+	}
+	#image{
+		width: 100%;
+		height: 400px;
+		margin-top:90px;	
+	}
+	#stats{
+			width: 100%;
+			height: 400px;
+			margin-top: -50px;
+		
+	}
+	#wraper{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:#00a9ff;
+	}
+}

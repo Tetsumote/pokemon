@@ -1,0 +1,47 @@
+#tab{
+		width: 100%;
+		margin-top:100px;
+		margin-bottom: 50px;
+		display: table;
+	}	
+	.table-row{
+		display: table-row;
+		background-color: #00a9ff;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size:1.5rem;
+		transition: all 0.5s ease-in-out;
+		
+		
+	}
+	
+	.size{
+		width: 100%;
+		border:1px solid white;
+		
+	}
+	.table-cell{
+		display: table-cell;
+		width:30%;
+		height: 100px;
+		vertical-align: middle;
+		text-align: center;
+		color:white;
+		border-top:1px solid white;
+	}
+	.table-row:hover{
+		background-color: rgba(0,1,255,0.70);
+	}
+	.table-row img{
+		transition: all 0.5s ease-in-out;
+	}
+	.table-row .table-cell{
+		transition: all 0.5s ease-in-out;
+	}
+	.table-row:hover .table-cell{
+		font-size: 2.5rem;
+		
+	}
+	.table-row:hover img{
+		transform: scale(1.7);
+	}
